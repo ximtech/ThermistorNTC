@@ -32,7 +32,7 @@ CPMAddPackage(
 3. Generate Code
 4. Add sources to project:
 ```cmake
-add_subdirectory(${STM32_CORE_SOURCE_DIR}/ADC/IT)  # add I2C to project
+add_subdirectory(${STM32_CORE_SOURCE_DIR}/ADC/IT)  # add ADC to project
 
 include_directories(${THERMISTOR_NTC_DIRECTORY})   # source directories
 file(GLOB_RECURSE SOURCES ${THERMISTOR_NTC_SOURCES})    # source files
