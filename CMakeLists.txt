@@ -18,6 +18,6 @@ set(THERMISTOR_NTC_DIRECTORY
 
 set(THERMISTOR_NTC_SOURCES
         ${ADC_IT_DIRECTORY}
-        ${EEPROM_SOURCE_DIR}/ThermistorNTC.c
-        ${EEPROM_SOURCE_DIR}/include/ThermistorNTC.h
+        ${ThermistorNTC_SOURCE_DIR}/ThermistorNTC.c
+        ${ThermistorNTC_SOURCE_DIR}/include/ThermistorNTC.h
         CACHE STRING "Thermistor NTC source files include to the main project" FORCE)

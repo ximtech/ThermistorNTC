@@ -27,6 +27,7 @@ CPMAddPackage(
 1. Start project with STM32CubeMX:
     * [ADC configuration](https://github.com/ximtech/ThermistorNTC/blob/main/example/config_1.PNG)
     * [ADC interrupt](https://github.com/ximtech/ThermistorNTC/blob/main/example/config_2.PNG)
+    * [TIM configuration](https://github.com/ximtech/ThermistorNTC/blob/main/example/config_3.PNG)
 2. Select: Project Manager -> Advanced Settings -> ADC -> LL
 3. Generate Code
 4. Add sources to project:
